@@ -52,7 +52,7 @@ buy.addEventListener('click',()=>{
     if(point >= autoClickCost && point < 1000){
         point = point - autoClickCost;
         auto();
-    } else if(point >= 1000 && point < autoClickCost){
+    } else if(point >= 1000 && point > autoClickCost){
         point = point - autoClickCost;
         autoClickCost = autoClickCost + 100;
         costmoney.innerText = autoClickCost;
