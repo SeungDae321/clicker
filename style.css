@@ -47,3 +47,23 @@ button:hover{
 .buymenu{
     margin-bottom: 10em;
 }
+
+.hiddenTitle{
+    display: none;
+}
+
+.titles{
+    margin-top: 5em;
+    text-decoration-thickness: 10px;
+    transition: 0.5s;
+}
+
+.titles:hover{
+    color: gold;
+    .title{
+        display: none;
+    }
+    .hiddenTitle{
+        display: block;
+    }
+}
