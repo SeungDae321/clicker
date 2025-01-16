@@ -1,0 +1,44 @@
+*{
+    text-align: center;
+    font-size: 30px;
+}
+
+body{
+    background-color: black;
+    color: antiquewhite;
+}
+
+.money{
+    margin-top: 5em;    
+    text-decoration-thickness: 10px;
+    transition: 0.5s;
+}
+.money:hover{
+    color: gold;
+}
+
+.hide{
+    display: none;
+}
+
+.points{
+    margin-top: 5em;    
+    text-decoration-thickness: 10px;
+    transition: 0.5s;
+}
+
+.points:hover{
+    color: gold;
+}
+
+button{
+    color: antiquewhite;
+    margin-top: 5em;
+    transition: 1s;
+    background-color: black;    
+}
+
+button:hover{
+    color: black;
+    background-color: gold;
+}
