@@ -69,8 +69,8 @@ buy.addEventListener('click',()=>{
 
 
 
-const devmode = document.querySelector('.devmode');
-devmode.addEventListener('click',()=>{
-    point = point + 100000;
-    points.innerText = point;
-});
+// const devmode = document.querySelector('.devmode');
+// devmode.addEventListener('click',()=>{
+//     point = point + 100000;
+//     points.innerText = point;
+// });
